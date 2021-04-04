@@ -11,6 +11,7 @@ rtmp {
         application live {
             live on;
             record off;
+			allow play all;
             #twitch
             #facebook
             #youtube
